@@ -710,6 +710,7 @@ input[type="radio"]:checked {
 
 .info-credit{
     display:none;
+    padding-bottom: 122px;
     background-image: url(./img/credit.png);
     background-position: 100% 33%;
     background-repeat: no-repeat;
