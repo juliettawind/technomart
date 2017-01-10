@@ -95,11 +95,11 @@ body{
     font-size:18px;
     line-height: 40px;
     margin:0 16px;
+    text-decoration: none;
 }
 .order{
     background: #63a63e;
     color: white;
-    text-decoration: none;
     text-align: center;
     float:right;
     margin:0;
@@ -227,6 +227,10 @@ body{
     position: absolute;
     left: 0;
     background: #293449;
+}
+.header-top-menu a:hover{
+    background-color:293449;
+    cursor: pointer;
 }
 
 /*Тело-плитка*/
