@@ -227,7 +227,7 @@ body{
     margin-bottom: 30px;
 }
 .yellow{
-        background: #f6b22d;
+        background: #ffb30c;
 }
 .materials{
     width: 300px;
@@ -464,7 +464,7 @@ body{
 
 
 .green{
-    background: #85d179;
+    background: #4ed274;
     margin-right: 0;
 }
 .discount{
@@ -695,13 +695,14 @@ input[type="radio"]:checked {
 .info-delivery{
     display:block;
     padding-bottom: 124px;
-    background-image: url(./img/delivery_1.png);
+    background-image: url(./img/delivery.png);
     background-position: 100% 33%;
     background-repeat: no-repeat;
 }
 
 .info-guarantee{
     display:none;
+    padding-bottom: 90px;
     background-image: url(./img/guarantee.png);
     background-position: 100% 33%;
     background-repeat: no-repeat;
@@ -709,6 +710,7 @@ input[type="radio"]:checked {
 
 .info-credit{
     display:none;
+    padding-bottom: 122px;
     background-image: url(./img/credit.png);
     background-position: 100% 33%;
     background-repeat: no-repeat;
