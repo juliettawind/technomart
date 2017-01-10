@@ -229,7 +229,7 @@ body{
     background: #293449;
 }
 .header-top-menu a:hover{
-    background-color:293449;
+    background-color:#293449;
     cursor: pointer;
 }
 
@@ -570,6 +570,32 @@ h3 {
     border: 1px solid #e5e5e5;
     transition: box-shadow .4s;
 }
+.goods-items:hover{
+    position:absolute;
+    top:0;
+    left:0;
+    width:218px;
+    height:88px;
+    padding:40px 0;
+    background-color:rgba(255,255,255,0.9);
+    z-index:10;
+}
+
+.actions{
+    position:absolute;
+    top:0;
+    left:0;
+    width:218px;
+    height:88px;
+    padding:40px 0;
+    background-color:rgba(255,255,255,0.9);
+    z-index:10;
+}
+.goods-item:last-child .actions{
+    display:none;
+}
+
+
 .goods-items .image {
     height: 168px;
     width: 200px;
