@@ -105,7 +105,15 @@ body{
     margin:0;
     padding:0px 14px;
 }
-
+.order:hover{
+    background-color: #6fc441;
+}
+.basket:hover, .bookmarks:hover{
+    background-color: #212a3a;
+}
+.fa fa-shopping-cart:hover, .fa fa-bookmark-o:hover{
+    background-color: white;
+}
 .basket:before{
     position: absolute;
     content: '';
