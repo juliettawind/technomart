@@ -46,7 +46,7 @@ body{
 }
 
 .search{
-    width: 260px;
+    width: 210px;
 }
 
 .search input {
@@ -56,6 +56,10 @@ body{
     font-size: inherit;
     font-family: inherit;
     background:transparent;
+    padding-left: 7px;
+    margin-left: 7px;
+    border-left: 2px solid;
+width: 105px;
 }
 
 .header-top i{
@@ -97,6 +101,10 @@ body{
     margin:0 16px;
     text-decoration: none;
 }
+.basket{
+    margin-left: 52px;
+}
+
 .order{
     background: #63a63e;
     color: white;
@@ -235,7 +243,7 @@ body{
 
 /*Тело-плитка*/
 .plitka{
-    margin-top: 60px;
+    margin-top: 100px;
     margin-bottom: 30px;
 }
 .yellow{
@@ -422,19 +430,17 @@ body{
     min-height: 105px;
     font-size: 36px;
     line-height: 30px;
-    font-weight: bold;
     text-transform: uppercase;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.1);
 }
-.slide .title-1{
+.slide .title h3{
     padding-top: 25px;
     padding-left: 22px;
 }
 .title p{
     font-size: 18px;
     line-height: 24px;
-    font-family: 'Open Sans';
     text-transform: none;
     margin-top: 8px;
     padding-left: 25px;
@@ -544,20 +550,19 @@ body{
 
 /*топ товары*/
 .light-brown{
-    width:100%;
-    height:90px;
     background:#f7f3ec;
     color: #32425c;
     font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 20px;
+    padding:30px;
+    overflow: hidden;
 }
 .light-brown h3 {
     float: left;
     font-weight: normal;
-    margin-top: 25px;
-    padding-left: 25px;
     max-width: 600px;
+    font-size: 30px;
 }
 h3 {
     margin: 0;
@@ -566,8 +571,6 @@ h3 {
 
 .light-brown .btn{
     float: right;
-    margin: 30px;
-    margin-right: 25px;
     width: 250px;
 }
 .btn {
@@ -596,7 +599,6 @@ h3 {
     line-height: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    font-family: 'Open Sans';
     font-size: 16px;
     text-align: center;
     font-weight: bold;
@@ -710,7 +712,7 @@ h3 {
 .brand{
     font-size: 0;
     line-height: 0;
-    margin-bottom: 85px;
+    margin-bottom: 42px;
 }
 .brand .item{
     position: relative;
@@ -730,11 +732,17 @@ h3 {
 
 /*Service*/
 .service{
-    padding: 20px 0;
-    height:520px;
+    padding-top: 64px;
 }
-.service h1{
+.service h3{
+    font-size: 28px;
     text-transform: uppercase;
+    margin-bottom: 28px;
+}
+.service p{
+    font-family: Arial;
+    font-size:13px;
+    line-height: 23px;
 }
 .service-menu{
     position: relative;
@@ -742,7 +750,7 @@ h3 {
     float: left;
     width: 220px;
     height: 289px;
-    margin-right: 80px;
+    margin: 60px 80px 0 0;
 }
 .service-menu input[type=radio]{
     position: absolute;
@@ -758,7 +766,6 @@ h3 {
     font-style: normal;
     font-size: 21px;
     line-height: 30px;
-    font-family: 'Cuprum', sans-serif;
     text-align: left;
     color: #fff;
     background-color: #32425c;
@@ -766,6 +773,10 @@ h3 {
     border-bottom: 1px solid #293449;
     outline: none;
     cursor: pointer;
+}
+.service-menu label:hover{
+    background-color: #fff;
+    color:#32425c;
 }
 .service-menu::after {
     content: "";
@@ -904,13 +915,20 @@ input[type="radio"]:checked {
 /*Company*/
 .o-company ul{
     list-style-type: none;
-    padding-bottom: 43px;
+    padding:0;
+}
+.o-company li{
+    margin:22px 0;
+    font-weight: bold;
 }
 
 .o-company li:before{
     content: "\2014\a0 ";
     color: red;
 }
+
+
+
 coll-3{
     background-color:#ee3643;
     width: 240px;
@@ -919,10 +937,17 @@ coll-3{
     background-color: #b52933;
     cursor: pointer;
 }
+
+
+.history{
+    margin:84px 0 32px 0;
+    overflow: hidden;
+}
+
+
 /*Футер line-1 */
 .line-1 {
     background-color: #32425c;
-    padding-bottom: 20px;
 }
 .footer-left {
     position: relative;
@@ -993,8 +1018,7 @@ coll-3{
     background: #293449;
     overflow: hidden;
     color: #fff;
-    padding-top: 42px;
-    padding-bottom: 42px;
+    padding:30px 0;
 }
 
 .copyright, .design, .footer-text, .social-buttons {
