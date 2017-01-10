@@ -307,6 +307,9 @@ body{
     background: #ee3643;
     font-weight: normal;
 }
+.btn:hover {
+    background-color: #b72f38;
+}
 .flag {
     position: absolute;
     content: '';
@@ -569,38 +572,45 @@ h3 {
     font-weight: bold;
     border: 1px solid #e5e5e5;
 }
-/*
 .goods-items:hover{
-    position:absolute;
-    top:0;
-    left:0;
-    width:218px;
-    height:88px;
-    padding:40px 0;
-    background-color:rgba(255,255,255,0.9);
-    z-index:10;
-}*/
-
-.actions{
-    position:absolute;
-    top:0;
-    left:0;
-    width:218px;
-    height:88px;
-    padding:40px 0;
-    background-color:rgba(255,255,255,0.9);
-    z-index:10;
-    text-transform: uppercase;
-    font-family: 'Cuprum';
-    text-decoration: none;
+    box-shadow: 0 3px 25px 1px #e1e2e5;
+}
+.goods-items .actions{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 218px;
+    height: 88px;
+    padding: 40px 0;
+    background-color: #fff;
+    z-index: 5;
+}
+.goods-items .btn-buy{
+    border-bottom-color: #367315;
     border-radius: 3px;
 }
+.actions a {
+    display: block;
+    width: 134px;
+    box-sizing: border-box;
+    margin: 0 auto 3px;
+    padding: 9px 0;
+    border-bottom-color: #367315;
+    border-radius: 3px;
+    font: 14px/18px Cuprum,Arial,sans-serif;
+    color: #fff;
 }
-.goods-item .actions{
-    display:none;
+.actions a, .product .btn-buy {
+    border: 3px solid #63a63e;
+    background-color: #63a63e;
 }
-.btn-buy{
-    box-shadow: 0 0 -3px 0px #367315;
+.product .btn-bookmark {
+    color: #32425c;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #63a63e;
+    border-radius: 3px;
 }
 
 
