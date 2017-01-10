@@ -570,6 +570,7 @@ h3 {
     border: 1px solid #e5e5e5;
     transition: box-shadow .4s;
 }
+/*
 .goods-items:hover{
     position:absolute;
     top:0;
@@ -579,7 +580,7 @@ h3 {
     padding:40px 0;
     background-color:rgba(255,255,255,0.9);
     z-index:10;
-}
+}*/
 
 .actions{
     position:absolute;
@@ -591,7 +592,7 @@ h3 {
     background-color:rgba(255,255,255,0.9);
     z-index:10;
 }
-.goods-item:last-child .actions{
+.goods-item .actions{
     display:none;
 }
 
@@ -663,6 +664,9 @@ h3 {
 }
 .brand .item:nth-child(4n) {
     margin-right: 0px;
+}
+.brand .item:hover{
+    box-shadow: 0 3px 25px 1px #e1e2e5;
 }
 
 /*Service*/
