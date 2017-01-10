@@ -296,6 +296,9 @@ body{
     opacity: 0.2;
     margin-top: 10px;
 }
+.btn-plitka:hover{
+    background-color: #9a9a9a;
+}
 .btn{
     height: 38px;
     line-height: 38px;
@@ -420,6 +423,10 @@ body{
     background: #ee3643;
     margin-top: 80px;
     margin-left: 25px;
+    cursor: pointer;
+}
+.photo .btn:hover{
+    background-color: #b72f38;
 }
 
 /*Login*/
@@ -868,6 +875,10 @@ input[type="radio"]:checked {
 .o-company li:before{
     content: "\2014\a0 ";
     color: red;
+}
+.coll-3:hover{
+    background-color: #b52933;
+    cursor: pointer;
 }
 /*Футер line-1 */
 .line-1 {
