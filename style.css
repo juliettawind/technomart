@@ -702,7 +702,11 @@ input[type="radio"]:checked {
 
 .info-guarantee{
     display:none;
+<<<<<<< HEAD
     padding-bottom: 90px;
+=======
+    padding-bottom: 129px;
+>>>>>>> iconservices
     background-image: url(./img/guarantee.png);
     background-position: 100% 33%;
     background-repeat: no-repeat;
