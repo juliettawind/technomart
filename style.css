@@ -188,7 +188,7 @@ body{
     color: #32425c;
     margin-right: 32px;
 }
-.user-nav a::after {
+.user-nav li:first-child a::after {
     content: '';
     position: absolute;
     top: 8px;
@@ -638,7 +638,6 @@ h3 {
 }
 .btn-buy:hover{
     background-color: #367315;
-    border: 3px solid #367315;
 }
 .actions .btn-bookmark {
     color: #32425c;
