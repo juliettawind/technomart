@@ -78,56 +78,56 @@
     <div class="content-block">
         <div class="layout-center-wrapper">
             <div class="filter-left-column">
-                <p>Фильтр:</p>
+                <h4>Фильтр:</h4>
                 <div class="range-filter">
-                    <h3>цена:</h3>
+                    <h3>цена:<i class="fa fa-angle-up" aria-hidden="true"></i></h3>
                     <div class="range-controls">
                         <div class="scale"><div class="bar"></div></div>
                         <div class="toggle min-toggle"></div>
                         <div class="toggle max-toggle"></div>
                     </div>
                     <div class="price-controls">
-                        от <input class="min-price" type="text" value="0">
-                        до <input class="max-price" type="text" value="30 000">
+                        <input class="min-price" type="text" value="0">
+                        <span>—</span>
+                        <input class="max-price" type="text" value="30 000">
                     </div>
                 </div>
-
+                <hr  class="line"/>
                 <div class="filter">
-                    <h1>Производители</h1>
-                    <ul>
+                    <h3>Производители:</h3>
+                    <ul class="manufacturer">
                         <li>
-                            <input style="position: absolute;opacity:0;left:-100px;" type="checkbox" name="category" id="category-1" />
-                            <a class="checkbox" href="#"></a>
-                            <label for="category-1">Bosch</label>
+                            <input type="checkbox" name="firm" id="firm1" value="Bosch"/>
+                            <label for="firm1">Bosch</label>
                         </li>
                         <li>
-                            <input style="position: absolute;opacity:0;left:-100px;" type="checkbox" name="category" id="category-2" />
-                            <a class="checkbox" href="#"></a>
-                            <label for="category-2">интерскол</label>
+                            <input  type="checkbox" name="firm" id="firm2" value="интерскол"/>
+                            <label for="firm2">интерскол</label>
                         </li>
 
                         <li>
-                            <input style="position: absolute;opacity:0;left:-100px;" type="checkbox" name="category" id="category-2" />
-                            <a class="checkbox" href="#"></a>
-                            <label for="category-2">makita</label>
+                            <input type="checkbox" name="firm" id="firm3" value="makita"/>
+                            <label for="firm3">makita</label>
                         </li>
                         <li>
-                            <input style="position: absolute;opacity:0;left:-100px;" type="checkbox" name="category" id="category-2" />
-                            <a class="checkbox" href="#"></a>
-                            <label for="category-2">dewalt</label>
+                            <input type="checkbox" name="firm" id="firm4" value="dewalt"/>
+                            <label for="firm4">dewalt</label>
                         </li>
                         <li>
-                            <input style="position: absolute;opacity:0;left:-100px;" type="checkbox" name="category" id="category-2" />
-                            <a class="checkbox" href="#"></a>
-                            <label for="category-2">hitachi</label>
+                            <input type="checkbox" name="firm" id="firm5" value="hitachi"/>
+                            <label for="firm5">hitachi</label>
                         </li>
                     </ul>
                 </div>
+                <hr  class="line"/>
                 <div class="group-product">
-                    <h1>питание:</h1>
-                    <ul>
-                        <li><a href="#" class="active" >аккумуляторные</a></li>
-                        <li><a href="#">сетевые</a></li>
+                    <h3>питание:</h3>
+                    <ul class="list-battery">
+                        <li><input type="radio" name="battery" id="battery1" value="battery" checked>
+                            <label for="battery1">аккумуляторные</label></li>
+                        <li><input type="radio" name="battery" id="battery2" value="battery"/>
+                            <label for="battery2">сетевые</label></li>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -243,12 +243,13 @@
                     </div>
                 </div>
 
-                <div class="padinator">
+                <div class="paginator">
                     <div class="layout-center-wrapper">
                         <a class="active" href="#1">1</a>
                         <a href="#2">2</a>
                         <a href="#3">3</a>
                         <a href="#4">4</a>
+                        <a href="#next" class="next">следующая</a>
                     </div>
                 </div>
             </div>
@@ -258,7 +259,7 @@
 
 
 
-    <div class="service" style="background:#f2f6f8;" >
+    <div style="background:#f2f6f8;padding: 64px 0;font-family: inherit;" >
         <div class="layout-center-wrapper">
             <h1>Пара слов о перфораторах</h1>
             <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
