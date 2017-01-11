@@ -47,7 +47,7 @@
             </div>
         </div>
         <ul class="header-top-menu container">
-            <li><a href="#start">Главная</a></li>
+            <li><a href="index.html">Главная</a></li>
             <li><a href="#company">Компания</a></li>
             <li><a href="#catalog">Каталог</a></li>
             <li><a href="#news">Новости</a></li>
@@ -61,12 +61,13 @@
     <div class="page-title">
         <div class="layout-center-wrapper">
             <ul class="breadcrumbs">
-                <li>
-                    <a href="#">каталог </a>
+                <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    <a href="catalog.html">каталог </a>
                 </li>
-                <li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i>
                     <a href="#">Инструмент</a>
-                </li>
+                </li><i class="fa fa-angle-right" aria-hidden="true"></i>
                 <li>Перфораторы</li>
             </ul>
             <h1>Перфораторы</h1>
@@ -79,10 +80,9 @@
             <div class="filter-left-column">
                 <p>Фильтр:</p>
                 <div class="range-filter">
-                    <p>цена:</p>
-                    <img/>
+                    <h3>цена:</h3>
                     <div class="range-controls">
-                        <div class="scale"><div style="margin-left:50px;width:100px;" class="bar"></div></div>
+                        <div class="scale"><div class="bar"></div></div>
                         <div class="toggle min-toggle"></div>
                         <div class="toggle max-toggle"></div>
                     </div>
@@ -132,16 +132,29 @@
                 </div>
             </div>
             <div class="catalog-center-column">
+                <div class="sortirovka">
+                    <ul>
+                        <li>сортировка:</li>
+                        <li>по цене <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+                        <li>по типу</li>
+                        <li>по функционалу</li>
+                    </ul>
+                </div>
                 <div class="goods">
                     <div class="row">
                         <div class="goods-items">
+                            <div class="actions">
+                                <a href="#buy" class="btn-buy"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Купить</a>
+                                <a href="#bookmark" class="btn-bookmark">В закладки</a>
+                            </div>
                             <div class="image">
-                                <img width="200" height="168" src="./img/1.jpg">>
+                                <img width="200" height="168" src="./img/1.jpg">
                             </div>
                             <div class="name">Перфоратор BOSCH</div>
                             <div class="oldprice">32 500 Р.</div>
                             <div class="price">25 500 Р.</div>
                         </div>
+
                         <div class="goods-items">
                             <div class="image">
                                 <img width="200" height="168" src="./img/2.jpg">
@@ -150,50 +163,74 @@
                             <div class="oldprice">22 500 Р.</div>
                             <div class="price">15 500 Р.</div>
                         </div>
+
                         <div class="goods-items">
+                            <div class="flag"></div>
                             <div class="image">
-                                <img width="200" height="168" src="./img/3.jpg">
+                                <img width="200" height="168" src="./img/4.jpg">
                             </div>
                             <div class="name">Перфоратор BOSCH</div>
-                            <div class="oldprice">30 500 Р.</div>
-                            <div class="price">25 500 Р.</div>
+                            <div class="oldprice"></div>
+                            <div class="price">12 500 Р.</div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="goods-items">
                             <div class="image">
-                                <img width="200" height="168" src="./img/1.jpg">>
-                            </div>
-                            <div class="name">Перфоратор BOSCH</div>
-                            <div class="oldprice">32 500 Р.</div>
-                            <div class="price">25 500 Р.</div>
-                        </div>
-                        <div class="goods-items">
-                            <div class="image">
                                 <img width="200" height="168" src="./img/2.jpg">
                             </div>
                             <div class="name">Перфоратор BOSCH</div>
                             <div class="oldprice">22 500 Р.</div>
                             <div class="price">15 500 Р.</div>
                         </div>
+
                         <div class="goods-items">
+                            <div class="flag"></div>
                             <div class="image">
-                                <img width="200" height="168" src="./img/3.jpg">
+                                <img width="200" height="168" src="./img/4.jpg">
                             </div>
                             <div class="name">Перфоратор BOSCH</div>
-                            <div class="oldprice">30 500 Р.</div>
+                            <div class="oldprice"></div>
+                            <div class="price">12 500 Р.</div>
+                        </div>
+
+                        <div class="goods-items">
+                            <div class="actions">
+                                <a href="#buy" class="btn-buy"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Купить</a>
+                                <a href="#bookmark" class="btn-bookmark">В закладки</a>
+                            </div>
+                            <div class="image">
+                                <img width="200" height="168" src="./img/1.jpg">
+                            </div>
+                            <div class="name">Перфоратор BOSCH</div>
+                            <div class="oldprice">32 500 Р.</div>
                             <div class="price">25 500 Р.</div>
                         </div>
+
                     </div>
                     <div class="row">
                         <div class="goods-items">
+                            <div class="flag"></div>
                             <div class="image">
-                                <img width="200" height="168" src="./img/1.jpg">>
+                                <img width="200" height="168" src="./img/4.jpg">
+                            </div>
+                            <div class="name">Перфоратор BOSCH</div>
+                            <div class="oldprice"></div>
+                            <div class="price">12 500 Р.</div>
+                        </div>
+                        <div class="goods-items">
+                            <div class="actions">
+                                <a href="#buy" class="btn-buy"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Купить</a>
+                                <a href="#bookmark" class="btn-bookmark">В закладки</a>
+                            </div>
+                            <div class="image">
+                                <img width="200" height="168" src="./img/1.jpg">
                             </div>
                             <div class="name">Перфоратор BOSCH</div>
                             <div class="oldprice">32 500 Р.</div>
                             <div class="price">25 500 Р.</div>
                         </div>
+
                         <div class="goods-items">
                             <div class="image">
                                 <img width="200" height="168" src="./img/2.jpg">
@@ -202,16 +239,10 @@
                             <div class="oldprice">22 500 Р.</div>
                             <div class="price">15 500 Р.</div>
                         </div>
-                        <div class="goods-items">
-                            <div class="image">
-                                <img width="200" height="168" src="./img/3.jpg">
-                            </div>
-                            <div class="name">Перфоратор BOSCH</div>
-                            <div class="oldprice">30 500 Р.</div>
-                            <div class="price">25 500 Р.</div>
-                        </div>
+
                     </div>
                 </div>
+
                 <div class="padinator">
                     <div class="layout-center-wrapper">
                         <a class="active" href="#1">1</a>
